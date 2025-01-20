@@ -16,5 +16,6 @@ jobs:
     steps:
       - uses: googleapis/release-please-action@v4
         with:
+          token: ${{ secrets.ACTIONS }}
           manifest-file: ".github/.release-please-manifest.json"
           config-file: ".github/release-please-config.json"
