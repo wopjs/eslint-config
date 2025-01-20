@@ -8,8 +8,9 @@
   "type": "module",
   "sideEffects": false,
   "files": [
-    "eslint.config.mjs",
-    "eslint.config.d.mts"
+    "index.js",
+    "index.d.ts",
+    "eslint.config.mjs"
   ],
   "scripts": {
     "lint": "eslint && prettier --check .",
