@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/wopjs/eslint-config/compare/v0.1.3...v0.1.4) (2025-01-20)
+
+
+### Bug Fixes
+
+* exports index.js ([7a3341d](https://github.com/wopjs/eslint-config/commit/7a3341d54ab00dbd8266c70938441590f4b76afb))
+
 ## [0.1.3](https://github.com/wopjs/eslint-config/compare/v0.1.2...v0.1.3) (2025-01-20)
 
 
