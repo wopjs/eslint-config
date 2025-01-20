@@ -1,5 +1,17 @@
-
 # Changelog
+
+## [0.1.3](https://github.com/wopjs/eslint-config/compare/v0.1.2...v0.1.3) (2025-01-20)
+
+
+### Build System
+
+* **deps:** bump typescript-eslint from 8.20.0 to 8.21.0 in the dev-dependencies group ([#7](https://github.com/wopjs/eslint-config/issues/7)) ([a69a0fc](https://github.com/wopjs/eslint-config/commit/a69a0fc769f05fb4824d9ed6cc5c1c702246518a))
+* update changelog ([f27c892](https://github.com/wopjs/eslint-config/commit/f27c8921c8af4023b385eb3657c7ca2647b35c97))
+
+
+### Code Refactoring
+
+* update deps version ([f22a625](https://github.com/wopjs/eslint-config/commit/f22a625ee1a742f898cce636e76d36cfca220076))
 
 ## [0.1.2](https://github.com/wopjs/eslint-config/compare/v0.1.0...v0.1.2) (2025-01-20)
 
