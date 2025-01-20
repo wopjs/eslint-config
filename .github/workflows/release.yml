@@ -1,11 +1,13 @@
-name: release-please
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
-    paths-ignore:
-      - "**.md"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: release-please
 
 jobs:
   release-please:
@@ -13,5 +15,4 @@ jobs:
     steps:
       - uses: googleapis/release-please-action@v4
         with:
-          manifest-file: ".github/.release-please-manifest.json"
-          config-file: ".github/release-please-config.json"
+          release-type: simple
