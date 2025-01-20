@@ -3,12 +3,45 @@
 [![Build Status](https://github.com/wopjs/eslint-config/actions/workflows/build.yml/badge.svg)](https://github.com/wopjs/eslint-config/actions/workflows/build.yml)
 [![npm-version](https://img.shields.io/npm/v/@wopjs/eslint-config.svg)](https://www.npmjs.com/package/@wopjs/eslint-config)
 
-Wopjs eslint config
+Wopjs eslint config. It aims to enforce code style that is consistent and diff-friendly, easy to review.
+
+## Features
+
+- Flat config.
+- Respects `.gitignore`.
+- Prettier compatible.
+- TypeScript configured.
+- Import sorting and field sorting.
 
 ## Install
 
 ```
 npm add @wopjs/eslint-config
+```
+
+## Usage
+
+```js
+// eslint.config.js
+import wopjs from "@wopjs/eslint-config";
+
+export default wopjs;
+```
+
+Add your own rules to the flat config.
+
+```js
+// eslint.config.js
+import wopjs from "@wopjs/eslint-config";
+
+export default {
+  ...wopjs,
+  {
+    rules: {
+      "no-console": "off",
+    },
+  }
+};
 ```
 
 ## Development
