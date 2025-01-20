@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2025-01-20)
+
+
+### Features
+
+* add default export ([6021b09](https://github.com/wopjs/eslint-config/commit/6021b09e032667bdd379811b58a468c8a1675e17))
+
 ## [0.1.1](https://github.com/wopjs/eslint-config/compare/v0.1.0...v0.1.1) (2025-01-20)
 
 
