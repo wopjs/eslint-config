@@ -1,11 +1,14 @@
 name: release-please
+
 on:
   workflow_dispatch:
   push:
     branches:
       - main
-    paths-ignore:
-      - "**.md"
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   release-please:
