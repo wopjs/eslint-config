@@ -1,0 +1,65 @@
+{
+  "name": "@wopjs/template",
+  "version": "0.1.0",
+  "description": "Collection of common utilities.",
+  "repository": "wopjs/template",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "lint": "eslint && prettier --check .",
+    "lint:fix": "eslint --fix && prettier --write .",
+    "ts-check": "tsc --noEmit",
+    "ts-watch": "tsc --noEmit -w",
+    "docs": "typedoc --options typedoc.json && prettier --ignore-path .prettierignore --write docs",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage --coverage.include=src/**",
+    "test:ci": "vitest --coverage --coverage.reporter=lcov --coverage.include=src/**",
+    "build": "tsup",
+    "build:min": "MINIFY=true tsup && node scripts/gzip.mjs",
+    "release": "commit-and-tag-version"
+  },
+  "keywords": [
+    "template"
+  ],
+  "maintainers": [
+    {
+      "name": "CRIMX",
+      "email": "straybugs@gmail.com",
+      "url": "https://github.com/crimx/"
+    },
+    {
+      "name": "hyrious",
+      "email": "hyrious@outlook.com",
+      "url": "https://github.com/hyrious/"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@types/node": "^22.10.6",
+    "@vitest/coverage-v8": "^2.1.8",
+    "commit-and-tag-version": "^12.5.0",
+    "eslint": "^9.18.0",
+    "eslint-config-flat-gitignore": "^1.0.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-import-x": "^4.6.1",
+    "eslint-plugin-jsonc": "^2.18.2",
+    "eslint-plugin-perfectionist": "^4.6.0",
+    "gzip-size": "^7.0.0",
+    "prettier": "^3.4.2",
+    "pretty-bytes": "^6.1.1",
+    "tsup": "^8.3.5",
+    "typedoc": "^0.27.6",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.20.0",
+    "vitest": "^2.1.6",
+    "yoctocolors": "^2.1.1"
+  }
+}
