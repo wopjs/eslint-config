@@ -3,14 +3,11 @@
   "bump-patch-for-minor-pre-major": true,
   "draft": false,
   "prerelease": false,
-  "packages": {
-    ".": {
-      "include-component-in-tag": false
-    }
-  },
+  "include-component-in-tag": false,
   "pull-request-header": ":robot: I have created a release",
   "release-type": "node",
   "versioning": "always-bump-patch",
+  "include-v-in-tag": true,
   "changelog-sections": [
     { "type": "feat", "section": "Features" },
     { "type": "feature", "section": "Features" },
