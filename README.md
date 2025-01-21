@@ -16,7 +16,7 @@ Wopjs eslint config. It aims to enforce code style that is consistent and diff-f
 ## Install
 
 ```
-npm add @wopjs/eslint-config
+npm add -D @wopjs/eslint-config
 ```
 
 ## Usage
