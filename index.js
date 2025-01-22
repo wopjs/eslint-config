@@ -6,6 +6,8 @@ import jsonc from "eslint-plugin-jsonc";
 import perfectionist from "eslint-plugin-perfectionist";
 import tsEslint from "typescript-eslint";
 
+export const defineConfig = tsEslint.config;
+
 export default tsEslint.config(
   gitignore(),
   eslintConfigPrettier,
@@ -26,6 +28,7 @@ export default tsEslint.config(
       parser: tsEslint.parser,
       sourceType: "module",
     },
+    name: "typescript",
     plugins: {
       "@typescript-eslint": tsEslint.plugin,
     },
@@ -75,6 +78,7 @@ export default tsEslint.config(
       "typedoc.json",
       "mangle-cache.json",
     ],
+    name: "json",
     rules: {
       "jsonc/sort-keys": ["error", "asc", { caseSensitive: true, minKeys: 2, natural: true }],
     },
