@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.5](https://github.com/wopjs/eslint-config/compare/v0.1.4...v0.1.5) (2025-01-22)
+
+
+### Features
+
+* add defineConfig ([28871e4](https://github.com/wopjs/eslint-config/commit/28871e4f0fc7b501fedc18c1646ca8367c035e50))
+
+
+### Build System
+
+* **deps:** remove unused deps ([e475938](https://github.com/wopjs/eslint-config/commit/e475938e80b3fba57db11d4b7aafc94e96e45065))
+
 ## [0.1.4](https://github.com/wopjs/eslint-config/compare/v0.1.3...v0.1.4) (2025-01-20)
 
 
