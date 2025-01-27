@@ -1,8 +1,8 @@
 import jsEslint from "@eslint/js";
+import json from "@eslint/json";
 import gitignore from "eslint-config-flat-gitignore";
 import eslintConfigPrettier from "eslint-config-prettier";
 import importX from "eslint-plugin-import-x";
-import jsonc from "eslint-plugin-jsonc";
 import perfectionist from "eslint-plugin-perfectionist";
 import tsEslint from "typescript-eslint";
 
@@ -68,7 +68,7 @@ export default tsEslint.config(
     },
   },
   {
-    extends: [...jsonc.configs["flat/recommended-with-json"]],
+    extends: [json.configs.recommended],
     files: [
       "src/**/*.json",
       "scripts/**/*.json",
@@ -78,9 +78,10 @@ export default tsEslint.config(
       "typedoc.json",
       "mangle-cache.json",
     ],
+    language: "json/json",
     name: "json",
     rules: {
-      "jsonc/sort-keys": ["error", "asc", { caseSensitive: true, minKeys: 2, natural: true }],
+      "json/sort-keys": ["error", "asc", { caseSensitive: true, minKeys: 2, natural: true }],
     },
   },
 );
