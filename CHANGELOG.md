@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.6](https://github.com/wopjs/eslint-config/compare/v0.1.5...v0.1.6) (2025-01-27)
+
+
+### Build System
+
+* **deps:** bump the dev-dependencies group across 1 directory with 3 updates ([#13](https://github.com/wopjs/eslint-config/issues/13)) ([cc225df](https://github.com/wopjs/eslint-config/commit/cc225df2ac2a5a1061054105ba8599876f29cb60))
+
+
+### Code Refactoring
+
+* **json:** use official eslint json ([57ca59d](https://github.com/wopjs/eslint-config/commit/57ca59da1636bfcd8d6a8fb851f446668dad65e1))
+
 ## [0.1.5](https://github.com/wopjs/eslint-config/compare/v0.1.4...v0.1.5) (2025-01-22)
 
 
