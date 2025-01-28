@@ -5,6 +5,15 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - ".github/**"
+      - ".vscode/**"
+      - ".editorconfig"
+      - ".gitignore"
+      - ".prettierrc.json"
+      - ".prettierignore"
+      - "cspell.json"
+      - "eslint.config.mjs"
 
 permissions:
   contents: write
@@ -12,6 +21,8 @@ permissions:
 
 jobs:
   release-please:
+    # prettier-ignore
+    if: '!startsWith(github.event.head_commit.message, ''build(deps-dev): bump the dev-dependencies group'')'
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@v4
