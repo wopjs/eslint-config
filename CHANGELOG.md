@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/wopjs/eslint-config/compare/v0.1.6...v0.1.7) (2025-01-30)
+
+
+### Features
+
+* **perfectionist:** sort typings ([3dbab0b](https://github.com/wopjs/eslint-config/commit/3dbab0b8cadea42f4aa5a3ad43819fc7350a521c))
+
 ## [0.1.6](https://github.com/wopjs/eslint-config/compare/v0.1.5...v0.1.6) (2025-01-27)
 
 
