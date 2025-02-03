@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8](https://github.com/wopjs/eslint-config/compare/v0.1.7...v0.1.8) (2025-02-03)
+
+
+### Bug Fixes
+
+* sort properties first ([55b52d6](https://github.com/wopjs/eslint-config/commit/55b52d62894e3782d02c8694a82f3d0ad9d00b14))
+
 ## [0.1.7](https://github.com/wopjs/eslint-config/compare/v0.1.6...v0.1.7) (2025-01-30)
 
 
