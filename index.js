@@ -66,7 +66,7 @@ export default tsEslint.config(
       "perfectionist/sort-interfaces": [
         "error",
         {
-          groups: ["index-signature", "property", "method", "optional-property", "optional-method", "unknown"],
+          groups: ["index-signature", "property", "optional-property", "method", "optional-method", "unknown"],
           ignoreCase: true,
           newlinesBetween: "ignore",
           order: "asc",
@@ -79,7 +79,7 @@ export default tsEslint.config(
       "perfectionist/sort-object-types": [
         "error",
         {
-          groups: ["index-signature", "optional-property", "optional-method", "property", "method", "unknown"],
+          groups: ["index-signature", "property", "optional-property", "method", "optional-method", "unknown"],
           ignoreCase: true,
           newlinesBetween: "ignore",
           order: "asc",
