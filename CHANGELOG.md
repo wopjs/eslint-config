@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.9](https://github.com/wopjs/eslint-config/compare/v0.1.8...v0.1.9) (2025-02-03)
+
+
+### Reverts
+
+* **deps:** use jsonc for better fix hint ([e3765b1](https://github.com/wopjs/eslint-config/commit/e3765b16abae7fca280eb77905c99902e2adb4b9))
+
+
+### Build System
+
+* **deps:** bump the dev-dependencies group across 1 directory with 2 updates ([#18](https://github.com/wopjs/eslint-config/issues/18)) ([cc2e3af](https://github.com/wopjs/eslint-config/commit/cc2e3af17c25afcb45e67b5b4a1f95d550ad83a7))
+
 ## [0.1.8](https://github.com/wopjs/eslint-config/compare/v0.1.7...v0.1.8) (2025-02-03)
 
 
