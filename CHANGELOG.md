@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.11](https://github.com/wopjs/eslint-config/compare/v0.1.10...v0.1.11) (2025-02-06)
+
+
+### Reverts
+
+* remove type sorting ([0ad3c82](https://github.com/wopjs/eslint-config/commit/0ad3c82cfbadc30b47ba3dd6916cf7d6683ce7ed))
+
 ## [0.1.10](https://github.com/wopjs/eslint-config/compare/v0.1.9...v0.1.10) (2025-02-04)
 
 
