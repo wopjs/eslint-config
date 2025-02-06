@@ -12,12 +12,7 @@ export default tsEslint.config(
   gitignore(),
   eslintConfigPrettier,
   {
-    extends: [
-      jsEslint.configs.recommended,
-      ...tsEslint.configs.recommended,
-      importX.flatConfigs.recommended,
-      perfectionist.configs["recommended-natural"],
-    ],
+    extends: [jsEslint.configs.recommended, ...tsEslint.configs.recommended, importX.flatConfigs.recommended],
     files: ["**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}"],
     languageOptions: {
       ecmaVersion: "latest",
@@ -31,6 +26,7 @@ export default tsEslint.config(
     name: "typescript",
     plugins: {
       "@typescript-eslint": tsEslint.plugin,
+      perfectionist: perfectionist,
     },
     rules: {
       "@typescript-eslint/consistent-type-imports": ["error", { fixStyle: "inline-type-imports" }],
@@ -61,32 +57,6 @@ export default tsEslint.config(
             "object",
             "unknown",
           ],
-        },
-      ],
-      "perfectionist/sort-interfaces": [
-        "error",
-        {
-          groups: ["index-signature", "property", "optional-property", "method", "optional-method", "unknown"],
-          ignoreCase: true,
-          newlinesBetween: "ignore",
-          order: "asc",
-          partitionByComment: false,
-          partitionByNewLine: false,
-          specialCharacters: "keep",
-          type: "natural",
-        },
-      ],
-      "perfectionist/sort-object-types": [
-        "error",
-        {
-          groups: ["index-signature", "property", "optional-property", "method", "optional-method", "unknown"],
-          ignoreCase: true,
-          newlinesBetween: "ignore",
-          order: "asc",
-          partitionByComment: false,
-          partitionByNewLine: false,
-          specialCharacters: "keep",
-          type: "natural",
         },
       ],
       "prefer-const": "off",
