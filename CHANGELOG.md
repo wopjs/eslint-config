@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.25](https://github.com/wopjs/eslint-config/compare/v0.1.24...v0.1.25) (2025-05-26)
+
+
+### Build System
+
+* **deps:** bump eslint-plugin-import-x in the prod-deps group ([#60](https://github.com/wopjs/eslint-config/issues/60)) ([fc58e32](https://github.com/wopjs/eslint-config/commit/fc58e32f1abeed3b2d68d15170cafec0c5e01638))
+
 ## [0.1.24](https://github.com/wopjs/eslint-config/compare/v0.1.23...v0.1.24) (2025-05-19)
 
 
