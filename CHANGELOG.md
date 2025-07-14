@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.31](https://github.com/wopjs/eslint-config/compare/v0.1.30...v0.1.31) (2025-07-14)
+
+
+### Build System
+
+* **deps-dev:** bump eslint from 9.30.1 to 9.31.0 in the dev-deps group ([#80](https://github.com/wopjs/eslint-config/issues/80)) ([7a2cfde](https://github.com/wopjs/eslint-config/commit/7a2cfded02e0583e8965396d265a179a34d05022))
+* **deps:** bump typescript-eslint ([#81](https://github.com/wopjs/eslint-config/issues/81)) ([6c83f57](https://github.com/wopjs/eslint-config/commit/6c83f573e778e09f3c207db806a66b2107c23b24))
+
 ## [0.1.30](https://github.com/wopjs/eslint-config/compare/v0.1.29...v0.1.30) (2025-07-08)
 
 
