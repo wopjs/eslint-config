@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.32](https://github.com/wopjs/eslint-config/compare/v0.1.31...v0.1.32) (2025-07-19)
+
+
+### Build System
+
+* **deps:** bump @eslint/plugin-kit from 0.3.1 to 0.3.3 in the npm_and_yarn group ([ee12091](https://github.com/wopjs/eslint-config/commit/ee12091dbe01aa6a120496510efd8c6012f50d20))
+* **deps:** bump @eslint/plugin-kit in the npm_and_yarn group ([31a5cf3](https://github.com/wopjs/eslint-config/commit/31a5cf3facd40b7fb12481f6acc579ce1252e44b))
+
 ## [0.1.31](https://github.com/wopjs/eslint-config/compare/v0.1.30...v0.1.31) (2025-07-14)
 
 
