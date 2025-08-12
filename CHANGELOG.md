@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.35](https://github.com/wopjs/eslint-config/compare/v0.1.34...v0.1.35) (2025-08-12)
+
+
+### Build System
+
+* **deps:** bump the prod-deps group with 2 updates ([#92](https://github.com/wopjs/eslint-config/issues/92)) ([3bd936a](https://github.com/wopjs/eslint-config/commit/3bd936af70d6efafcdc80a2ac79d01bc736fd678))
+
 ## [0.1.34](https://github.com/wopjs/eslint-config/compare/v0.1.33...v0.1.34) (2025-07-29)
 
 
