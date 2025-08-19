@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.36](https://github.com/wopjs/eslint-config/compare/v0.1.35...v0.1.36) (2025-08-19)
+
+
+### Build System
+
+* **deps:** bump brace-expansion in the npm_and_yarn group ([#96](https://github.com/wopjs/eslint-config/issues/96)) ([79d8e07](https://github.com/wopjs/eslint-config/commit/79d8e078229ec1319c16fc391ab38524fc70d744))
+* **deps:** bump typescript-eslint in the prod-deps group ([#95](https://github.com/wopjs/eslint-config/issues/95)) ([c8890d3](https://github.com/wopjs/eslint-config/commit/c8890d36f62b55c944d5b66fcb89e45f44391d47))
+
 ## [0.1.35](https://github.com/wopjs/eslint-config/compare/v0.1.34...v0.1.35) (2025-08-12)
 
 
