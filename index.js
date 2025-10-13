@@ -4,11 +4,13 @@ import eslintConfigPrettier from "eslint-config-prettier";
 import importX from "eslint-plugin-import-x";
 import jsonc from "eslint-plugin-jsonc";
 import perfectionist from "eslint-plugin-perfectionist";
+import { defineConfig } from "eslint/config";
 import tsEslint from "typescript-eslint";
 
-export const defineConfig = tsEslint.config;
+/** @deprecated use `import { defineConfig } from "eslint/config";` instead. */
+export { defineConfig };
 
-export default tsEslint.config(
+export default defineConfig(
   gitignore(),
   eslintConfigPrettier,
   {
@@ -16,18 +18,12 @@ export default tsEslint.config(
     files: ["**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}"],
     languageOptions: {
       ecmaVersion: "latest",
-      globals: {
-        console: true,
-        process: true,
-      },
+      globals: { console: true, process: true },
       parser: tsEslint.parser,
       sourceType: "module",
     },
     name: "typescript",
-    plugins: {
-      "@typescript-eslint": tsEslint.plugin,
-      perfectionist: perfectionist,
-    },
+    plugins: { "@typescript-eslint": tsEslint.plugin, perfectionist },
     rules: {
       "@typescript-eslint/consistent-type-imports": ["error", { fixStyle: "inline-type-imports" }],
       "@typescript-eslint/no-empty-interface": "off",
@@ -75,8 +71,6 @@ export default tsEslint.config(
       "mangle-cache.json",
     ],
     name: "json",
-    rules: {
-      "jsonc/sort-keys": ["error", "asc", { caseSensitive: true, minKeys: 2, natural: true }],
-    },
+    rules: { "jsonc/sort-keys": ["error", "asc", { caseSensitive: true, minKeys: 2, natural: true }] },
   },
 );
