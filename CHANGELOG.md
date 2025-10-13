@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.44](https://github.com/wopjs/eslint-config/compare/v0.1.43...v0.1.44) (2025-10-13)
+
+
+### Code Refactoring
+
+* use eslint defineConfig instead ([ecf3719](https://github.com/wopjs/eslint-config/commit/ecf3719d19982598eb7d3c461eda2d33b70fc009))
+
 ## [0.1.43](https://github.com/wopjs/eslint-config/compare/v0.1.42...v0.1.43) (2025-10-06)
 
 
