@@ -1,6 +1,6 @@
 {
   "name": "@wopjs/eslint-config",
-  "version": "0.1.44",
+  "version": "0.1.45",
   "description": "Wopjs eslint config that aims to enforce code style that is consistent and diff-friendly, easy to review.",
   "repository": "wopjs/eslint-config",
   "main": "./index.js",
