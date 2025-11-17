@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.50](https://github.com/wopjs/eslint-config/compare/v0.1.49...v0.1.50) (2025-11-17)
+
+
+### Build System
+
+* **deps:** bump js-yaml from 4.1.0 to 4.1.1 ([#130](https://github.com/wopjs/eslint-config/issues/130)) ([2d624cc](https://github.com/wopjs/eslint-config/commit/2d624cc291b56c8d567b83931ad7fb8ca910d9b4))
+
 ## [0.1.49](https://github.com/wopjs/eslint-config/compare/v0.1.48...v0.1.49) (2025-11-10)
 
 
