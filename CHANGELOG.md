@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.51](https://github.com/wopjs/eslint-config/compare/v0.1.50...v0.1.51) (2025-11-24)
+
+
+### Build System
+
+* **deps:** bump typescript-eslint in the prod-deps group ([#132](https://github.com/wopjs/eslint-config/issues/132)) ([52ac2f5](https://github.com/wopjs/eslint-config/commit/52ac2f54a6e40e63c3e1c7c7d0833471144e3586))
+
 ## [0.1.50](https://github.com/wopjs/eslint-config/compare/v0.1.49...v0.1.50) (2025-11-17)
 
 
