@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.52](https://github.com/wopjs/eslint-config/compare/v0.1.51...v0.1.52) (2025-12-02)
+
+
+### Build System
+
+* **deps-dev:** bump prettier from 3.6.2 to 3.7.3 in the dev-deps group ([#134](https://github.com/wopjs/eslint-config/issues/134)) ([097852d](https://github.com/wopjs/eslint-config/commit/097852dc4ae6f6545241c69195842fddf9b8a41a))
+* **deps:** bump typescript-eslint in the prod-deps group ([#135](https://github.com/wopjs/eslint-config/issues/135)) ([676f2d3](https://github.com/wopjs/eslint-config/commit/676f2d3589b74b36be42876730c76f90547c04f7))
+
 ## [0.1.51](https://github.com/wopjs/eslint-config/compare/v0.1.50...v0.1.51) (2025-11-24)
 
 
