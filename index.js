@@ -1,7 +1,7 @@
 import jsEslint from "@eslint/js";
 import gitignore from "eslint-config-flat-gitignore";
 import eslintConfigPrettier from "eslint-config-prettier";
-import importX from "eslint-plugin-import-x";
+import { importX } from "eslint-plugin-import-x";
 import jsonc from "eslint-plugin-jsonc";
 import perfectionist from "eslint-plugin-perfectionist";
 import { defineConfig } from "eslint/config";
@@ -47,10 +47,10 @@ export default defineConfig(
           groups: [
             "side-effect-style",
             "style",
-            ["builtin-type", "external-type", "internal-type", "parent-type", "sibling-type", "index-type"],
-            ["builtin", "external"],
-            ["internal", "parent", "sibling", "index"],
-            "object",
+            ["type-builtin", "type-external", "type-internal", "type-parent", "type-sibling", "type-index"],
+            ["value-builtin", "value-external"],
+            ["value-internal", "value-parent", "value-sibling", "value-index"],
+            "ts-equals-import",
             "unknown",
           ],
         },
