@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.55](https://github.com/wopjs/eslint-config/compare/v0.1.54...v0.1.55) (2025-12-22)
+
+
+### Build System
+
+* **deps:** bump eslint-plugin-perfectionist from 4.15.1 to 5.0.0 in the prod-deps group ([#145](https://github.com/wopjs/eslint-config/issues/145)) ([b77ded8](https://github.com/wopjs/eslint-config/commit/b77ded852b6f034fc56657e4650cbaa75d37c289))
+
 ## [0.1.54](https://github.com/wopjs/eslint-config/compare/v0.1.53...v0.1.54) (2025-12-16)
 
 
