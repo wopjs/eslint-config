@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.60](https://github.com/wopjs/eslint-config/compare/v0.1.59...v0.1.60) (2026-01-26)
+
+
+### Build System
+
+* **deps-dev:** bump prettier from 3.8.0 to 3.8.1 in the dev-deps group ([#156](https://github.com/wopjs/eslint-config/issues/156)) ([028f211](https://github.com/wopjs/eslint-config/commit/028f2113dc18f301736d8a0be453ee79a9fb6234))
+* **deps:** bump the prod-deps group with 2 updates ([#157](https://github.com/wopjs/eslint-config/issues/157)) ([652e28d](https://github.com/wopjs/eslint-config/commit/652e28d73a292e7bc0915ffe42dc9f1cae5c90bf))
+
 ## [0.1.59](https://github.com/wopjs/eslint-config/compare/v0.1.58...v0.1.59) (2026-01-23)
 
 
