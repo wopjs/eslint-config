@@ -10,3 +10,7 @@ updates:
     versioning-strategy: "increase"
     schedule:
       interval: "weekly"
+    groups:
+      all-deps:
+        patterns:
+          - "*"
