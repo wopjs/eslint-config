@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.63](https://github.com/wopjs/eslint-config/compare/v0.1.62...v0.1.63) (2026-03-16)
+
+
+### Bug Fixes
+
+* **deps:** update eslint peer dependency to support version 9.x || 10.x and refactor jsonc import ([4975c62](https://github.com/wopjs/eslint-config/commit/4975c6224387a926d966a08d8b23a7ad0d2ae6d3))
+
+
+### Build System
+
+* **deps:** update eslint peer dependency to support version 10.x ([3ef8d21](https://github.com/wopjs/eslint-config/commit/3ef8d211f67051f82f2e614aa4393f11cdebd312))
+
 ## [0.1.62](https://github.com/wopjs/eslint-config/compare/v0.1.61...v0.1.62) (2026-03-16)
 
 
