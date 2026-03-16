@@ -2,7 +2,7 @@ import jsEslint from "@eslint/js";
 import gitignore from "eslint-config-flat-gitignore";
 import eslintConfigPrettier from "eslint-config-prettier";
 import { importX } from "eslint-plugin-import-x";
-import jsonc from "eslint-plugin-jsonc";
+import { configs as jsoncConfigs } from "eslint-plugin-jsonc";
 import perfectionist from "eslint-plugin-perfectionist";
 import { defineConfig } from "eslint/config";
 import tsEslint from "typescript-eslint";
@@ -60,7 +60,7 @@ export default defineConfig(
     },
   },
   {
-    extends: jsonc.configs["flat/recommended-with-json"],
+    extends: jsoncConfigs["flat/recommended-with-json"],
     files: [
       "src/**/*.json",
       "scripts/**/*.json",
