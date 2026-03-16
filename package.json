@@ -36,7 +36,7 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "9.x"
+    "eslint": "9.x || 10.x"
   },
   "dependencies": {
     "@eslint/js": "^10.0.1",
