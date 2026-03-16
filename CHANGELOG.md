@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.62](https://github.com/wopjs/eslint-config/compare/v0.1.61...v0.1.62) (2026-03-16)
+
+
+### Build System
+
+* **deps:** bump ajv from 6.12.6 to 6.14.0 ([#169](https://github.com/wopjs/eslint-config/issues/169)) ([eba2f87](https://github.com/wopjs/eslint-config/commit/eba2f871ef080c161ce5220de28eca25d3e0d93c))
+* **deps:** bump eslint-plugin-perfectionist from 5.4.0 to 5.5.0 ([#165](https://github.com/wopjs/eslint-config/issues/165)) ([6061dc5](https://github.com/wopjs/eslint-config/commit/6061dc500f20ca98a7d425b1626b0e39058b48f3))
+* **deps:** bump flatted from 3.3.1 to 3.4.1 ([#173](https://github.com/wopjs/eslint-config/issues/173)) ([7f51d20](https://github.com/wopjs/eslint-config/commit/7f51d20567880d19cfb84bfff73f2b4518871177))
+* **deps:** bump minimatch ([#171](https://github.com/wopjs/eslint-config/issues/171)) ([ace0346](https://github.com/wopjs/eslint-config/commit/ace0346f78e9ca872f6204d54a5862c673921426))
+* **deps:** bump minimatch from 3.1.3 to 3.1.5 ([#172](https://github.com/wopjs/eslint-config/issues/172)) ([045a5be](https://github.com/wopjs/eslint-config/commit/045a5befed67fb9504a0bee69b8777448de521db))
+
 ## [0.1.61](https://github.com/wopjs/eslint-config/compare/v0.1.60...v0.1.61) (2026-02-02)
 
 
