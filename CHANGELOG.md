@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.66](https://github.com/wopjs/eslint-config/compare/v0.1.65...v0.1.66) (2026-03-23)
+
+
+### Build System
+
+* **deps:** bump the all-deps group with 3 updates ([#179](https://github.com/wopjs/eslint-config/issues/179)) ([5809a5e](https://github.com/wopjs/eslint-config/commit/5809a5e7ed97c76a6fa5e640aae11cd5bbf9551f))
+
 ## [0.1.65](https://github.com/wopjs/eslint-config/compare/v0.1.64...v0.1.65) (2026-03-23)
 
 
