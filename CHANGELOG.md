@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.64](https://github.com/wopjs/eslint-config/compare/v0.1.63...v0.1.64) (2026-03-23)
+
+
+### Build System
+
+* **deps:** bump flatted from 3.4.1 to 3.4.2 ([#176](https://github.com/wopjs/eslint-config/issues/176)) ([57420d3](https://github.com/wopjs/eslint-config/commit/57420d3dac3493caf82d94aa17efe19bb1546d18))
+
 ## [0.1.63](https://github.com/wopjs/eslint-config/compare/v0.1.62...v0.1.63) (2026-03-16)
 
 
