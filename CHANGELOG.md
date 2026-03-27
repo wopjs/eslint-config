@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.67](https://github.com/wopjs/eslint-config/compare/v0.1.66...v0.1.67) (2026-03-26)
+
+
+### Build System
+
+* **deps:** bump picomatch from 4.0.3 to 4.0.4 ([#181](https://github.com/wopjs/eslint-config/issues/181)) ([5b8bf65](https://github.com/wopjs/eslint-config/commit/5b8bf656827f39b82ac3daef8bae7cc7d00e1d66))
+
 ## [0.1.66](https://github.com/wopjs/eslint-config/compare/v0.1.65...v0.1.66) (2026-03-23)
 
 
