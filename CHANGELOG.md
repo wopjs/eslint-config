@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.75](https://github.com/wopjs/eslint-config/compare/v0.1.74...v0.1.75) (2026-05-13)
+
+
+### Build System
+
+* **deps:** bump typescript-eslint from 8.59.2 to 8.59.3 in the all-deps group ([#199](https://github.com/wopjs/eslint-config/issues/199)) ([ad01f04](https://github.com/wopjs/eslint-config/commit/ad01f04cfe68bb36ac0ff6a043f4ad6ff3227b98))
+
 ## [0.1.74](https://github.com/wopjs/eslint-config/compare/v0.1.73...v0.1.74) (2026-05-12)
 
 
