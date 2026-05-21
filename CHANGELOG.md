@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.77](https://github.com/wopjs/eslint-config/compare/v0.1.76...v0.1.77) (2026-05-20)
+
+
+### Build System
+
+* add .npmrc with min-release-age configuration ([181f3bf](https://github.com/wopjs/eslint-config/commit/181f3bf46cbba397bd163a2592c2994d8bd6cd47))
+
 ## [0.1.76](https://github.com/wopjs/eslint-config/compare/v0.1.75...v0.1.76) (2026-05-19)
 
 
