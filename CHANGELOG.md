@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.82](https://github.com/wopjs/eslint-config/compare/v0.1.81...v0.1.82) (2026-08-05)
+
+
+### Build System
+
+* **deps:** bump brace-expansion from 5.0.7 to 5.0.9 ([#212](https://github.com/wopjs/eslint-config/issues/212)) ([ae5dd8c](https://github.com/wopjs/eslint-config/commit/ae5dd8cf8bf6fd54893783c109cd07c43643b384))
+
 ## [0.1.81](https://github.com/wopjs/eslint-config/compare/v0.1.80...v0.1.81) (2026-08-02)
 
 
