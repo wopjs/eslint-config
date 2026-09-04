@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.84](https://github.com/wopjs/eslint-config/compare/v0.1.83...v0.1.84) (2026-09-04)
+
+
+### Build System
+
+* **deps:** bump @humanfs/node from 0.16.6 to 0.16.8 ([#216](https://github.com/wopjs/eslint-config/issues/216)) ([3f6ca01](https://github.com/wopjs/eslint-config/commit/3f6ca01d51ab9ca93762ecf0284ba21573f7682b))
+
 ## [0.1.83](https://github.com/wopjs/eslint-config/compare/v0.1.82...v0.1.83) (2026-09-01)
 
 
